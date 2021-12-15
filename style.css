@@ -1,0 +1,134 @@
+
+html {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    display: flex;
+    border-bottom: 1px solid seashell;
+    background-color: black;  
+    top: 0; 
+    justify-content: space-between;  
+    z-index: 1;   
+}
+
+header nav p {
+
+    display: inline-flex;
+ 
+}
+
+a {
+
+    margin: 10px;
+    color: white;
+}
+
+
+header img {
+
+    height: 50px;
+    margin-left: 10px;
+   
+    
+}
+
+.mission img {
+
+    height: 700px;
+    width: 1200;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.mission-title{
+    
+    position: absolute;
+    background-color: black;
+    bottom: 50%;
+    width: 100%;
+    margin: auto;
+
+}
+
+.tea {
+
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.tea images {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea img {
+
+    max-width: 300px;
+    max-height: 200px;  
+    margin: 10px; 
+}
+
+.locations  {
+    
+    max-width: 1200px;
+    height: 700px; 
+    background-image: url(./img-locations-background.jpg);
+    margin: 20px auto; 
+    position: relative;
+    
+}
+
+.location  {
+    
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    top: 20%;
+    display: flex;   
+
+}
+
+.location div {
+
+    margin: 15px 40px;
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+}
+
+.locations h1 {
+ 
+    display: inline;
+    color: white;
+    position: relative;
+    top: 10%;
+
+}
+
+.contacts {
+    position: relative;
+    top: 45%;
+    max-height: 200px;
+    background-color: black;
+}
+
+footer {
+    margin-top: 70px;
+    float: left;
+}
+
