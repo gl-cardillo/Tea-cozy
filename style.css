@@ -66,7 +66,7 @@ header img {
 
     position: relative;
     max-width: 1200px;
-   margin: auto;
+    margin: auto;
 }
 
 .tea images {
@@ -90,7 +90,7 @@ header img {
     background-image: url(./img-locations-background.jpg);
     margin: 20px auto; 
     position: relative;
-    
+    background-repeat: no-repeat;
 }
 
 .location  {
@@ -100,6 +100,7 @@ header img {
     flex-wrap: wrap;
     top: 20%;
     display: flex;   
+    
 
 }
 
@@ -133,12 +134,11 @@ header img {
 }
 
 
-@media only screen and (max-width: 1000px) {
-
+@media only screen and (max-width: 1600px) {
 
     .mission-title {
-        top: 10%;
- 
+       top: 15%;
+        
     }
 
     header {
@@ -147,4 +147,49 @@ header img {
         justify-content: center; 
        }
     
+}
+
+@media only screen and (max-width: 950px) {
+
+    .mission-title {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+
+
+    .location div {
+
+        margin: 5px 2px;
+    
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    
+    .location {
+        top: 5%;
+    }
+    
+    .locations h1 {
+
+        top: 2%;
+    }
+    .mission-title {
+       top: 8%;
+    }
+
+    .locations {
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+
+    .mission-title {
+        display: none;
+    }
+
+
 }
