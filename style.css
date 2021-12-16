@@ -141,11 +141,6 @@ header img {
         
     }
 
-    header {
-        flex-wrap: wrap; 
-        height: auto; 
-        justify-content: center; 
-       }
     
 }
 
@@ -154,6 +149,12 @@ header img {
     .mission-title {
         top: 10%;
     }
+
+    header {
+        flex-wrap: wrap; 
+        height: auto; 
+        justify-content: center; 
+       }
 }
 
 @media only screen and (max-width: 780px) {
