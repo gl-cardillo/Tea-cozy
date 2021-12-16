@@ -43,7 +43,7 @@ header img {
     
 }
 
-.mission img {
+#mission img {
 
     max-height: 700px;
     max-width: 1200;
@@ -52,8 +52,7 @@ header img {
     
     
 }
-.mission-title{
-    
+.mission-title{    
     position: absolute;
     background-color: black;
     top: 30%;
@@ -62,28 +61,28 @@ header img {
 
 }
 
-.tea {
+#tea {
 
     position: relative;
     max-width: 1200px;
     margin: auto;
 }
 
-.tea images {
+#tea images {
     
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.tea img {
+#tea img {
 
     max-width: 300px;
     max-height: 200px;  
     margin: 10px; 
 }
 
-.locations  {
+#locations  {
     
     max-width: 1200px;
     height: 700px; 
@@ -112,10 +111,10 @@ header img {
     opacity: 1;
 }
 
-.locations h1 {
+#locations h1 {
  
     display: inline;
-    color: white;
+    color: black;
     position: relative;
     top: 10%;
 
@@ -138,9 +137,8 @@ header img {
 
     .mission-title {
        top: 15%;
-        
+     
     }
-
     
 }
 
@@ -148,23 +146,23 @@ header img {
 
     .mission-title {
         top: 10%;
-    }
+  }
 
     header {
         flex-wrap: wrap; 
         height: auto; 
         justify-content: center; 
-       }
+       }  
+       .location div {
+       margin: 5px 2px;
+    
+    }
 }
 
 @media only screen and (max-width: 780px) {
 
 
-    .location div {
 
-        margin: 5px 2px;
-    
-    }
 }
 
 @media only screen and (max-width: 640px) {
@@ -173,16 +171,22 @@ header img {
         top: 5%;
     }
     
-    .locations h1 {
+    #locations h1 {
 
         top: 2%;
-    }
-    .mission-title {
-       top: 8%;
+
     }
 
-    .locations {
-        height: 900px;
+    .mission-title {
+    
+        top: 8%;
+    
+    }
+
+    #locations {
+
+    height: 950px;
+
     }
 }
 
@@ -190,7 +194,7 @@ header img {
 
     .mission-title {
         display: none;
-    }
+  }
 
 
 }
